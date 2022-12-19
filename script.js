@@ -11,3 +11,24 @@ const TheDetailingProsRenoLatLong = { lat: 39.525691871223714, lng: -119.7452229
 const BuckeyeCleanWerksLatLong = { lat: 39.8846453212776, lng: -83.09383933275329 }
 const CeramicEliteLLCLatLong = { lat: 34.13040098033725, lng: -83.9762814364741 }
 const CeramicLabsLatLong = { Lat: 35.36326779855859, lng: -80.1557351491574 }
+
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: UnitedStatesLatLong,
+      zoom: 5,
+    });
+  
+    const BaiasDetailingMarker = new google.maps.Marker({
+      position: appalachianautocareLatLong,
+      map: map,
+    });
+    const appalachianautocareMarker = new google.maps.Marker({
+      position: BaiasDetailingLatLong,
+      map: map,
+    });
+  
+    const affordableautospaMarker =  new google.maps.Marker({
+      position: affordableautospaLatLong,
+      map: map,
+    });
