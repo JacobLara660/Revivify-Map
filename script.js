@@ -32,3 +32,39 @@ function initMap() {
       position: affordableautospaLatLong,
       map: map,
     });
+
+    const TouchUpTeamMarker = new google.maps.Marker({
+        position: TouchUpTeamLatLong,
+        map: map,
+      });
+    
+      const BestShineAutoDetailingMarker = new google.maps.Marker({
+        position: BestShineAutoDetailingLatLong,
+        map: map,
+      });
+    
+      const BNRAutoDetailingMarker = new google.maps.Marker({
+        position: BNRAutoDetailingLatLong,
+        map: map,
+      })
+    
+      const BottiniAutoDetailingMarker = new google.maps.Marker({
+        position: BottiniAutoDetailingLatLong,
+        map: map,
+      })
+    
+      const TheDetailingProsRenoMarker = new google.maps.Marker({
+        position: TheDetailingProsRenoLatLong,
+        map: map,
+      })
+    
+      const BuckeyeCleanWerksMarker = new google.maps.Marker({
+        position: BuckeyeCleanWerksLatLong,
+        map: map,
+      })
+    
+      const CeramicEliteLLCMarker= new google.maps.Marker({
+        position: CeramicEliteLLCLatLong,
+        map: map,
+      })
+    }
