@@ -24,3 +24,15 @@ BottiniAutoDetailingLatLong
 
 TheDetailingProsRenoLatLong
 { 39.525691871223714, -119.74522298223894 }
+
+BuckeyeCleanWerksLatLong
+{ 39.8846453212776, -83.09383933275329 }
+
+CeramicEliteLLCLatLong
+{ 34.13044538497863, -83.9762921653093 }
+
+CeramicLabsLatLong
+{ 35.36319780368862, -80.1557351491574 }
+
+
+
