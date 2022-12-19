@@ -1,4 +1,4 @@
-et map;
+let map;
 const UnitedStatesLatLong = { lat:40.20612271399455 , lng:-101.68548215531787 }
 const appalachianautocareLatLong = { lat:35.52427857203087, lng: -82.98744432518171 }
 const BaiasDetailingLatLong = { lat:43.02155562087665, lng: -74.36900354891314 }
