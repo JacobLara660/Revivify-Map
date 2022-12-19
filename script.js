@@ -1,0 +1,8 @@
+et map;
+const UnitedStatesLatLong = { lat:40.20612271399455 , lng:-101.68548215531787 }
+const appalachianautocareLatLong = { lat:35.52427857203087, lng: -82.98744432518171 }
+const BaiasDetailingLatLong = { lat:43.02155562087665, lng: -74.36900354891314 }
+const affordableautospaLatLong = { lat:28.251865702793246, lng: -81.2343011040444 }
+const TouchUpTeamLatLong = { lat:33.449628375426656, lng: -112.07298223286827 }
+const BestShineAutoDetailingLatLong = { lat:41.97364607532042, lng: -83.96501712265818 }
+const BNRAutoDetailingLatLong = { lat:40.98757180450213, lng:  -74.13975961763134 }
