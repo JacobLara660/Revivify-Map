@@ -11,7 +11,7 @@ const TheDetailingProsRenoLatLong = { lat: 39.525691871223714, lng: -119.7452229
 const BuckeyeCleanWerksLatLong = { lat: 39.8846453212776, lng: -83.09383933275329 }
 const CeramicEliteLLCLatLong = { lat: 34.13040098033725, lng: -83.9762814364741 }
 const CeramicLabsLatLong = { Lat: 35.36326779855859, lng: -80.1557351491574 }
-
+const charlestonwindowfilmsLatLong = { lat: 32.783663767095724, lng: -79.99371548661055 }
 
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
@@ -67,4 +67,11 @@ function initMap() {
         position: CeramicEliteLLCLatLong,
         map: map,
       })
+
+      const charlestonwindowfilmsMarker= new google.maps.Marker({
+        position: charlestonwindowfilmsLatLong,
+        map: map,
+    
+      })
+
     }
