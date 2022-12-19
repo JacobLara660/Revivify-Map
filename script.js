@@ -71,7 +71,7 @@ function initMap() {
       const charlestonwindowfilmsMarker= new google.maps.Marker({
         position: charlestonwindowfilmsLatLong,
         map: map,
-    
+        
       })
 
     }

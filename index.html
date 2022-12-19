@@ -17,6 +17,21 @@
       defer
     ></script>
 
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArMLjT6Nw20g_PNBcq9HQpG2HPZFASKSc&callback=initMap&v=weekly"
+    async
+    defer
+    onerror="errorHandlingFunction()"
+
+    function errorHandlingFunction() {
+        console.error("An error occurred while loading the Google Maps API");
+      }
+      
+
+  ></script>
+  
+
 </body>
+
 
 </html>
