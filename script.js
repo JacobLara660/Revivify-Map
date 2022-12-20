@@ -18,60 +18,73 @@ function initMap() {
       center: UnitedStatesLatLong,
       zoom: 5,
     });
-  
+
     const BaiasDetailingMarker = new google.maps.Marker({
       position: appalachianautocareLatLong,
       map: map,
+      icon: './revivifyshield_marker.png'
     });
     const appalachianautocareMarker = new google.maps.Marker({
       position: BaiasDetailingLatLong,
       map: map,
+      icon: './revivifyshield_marker.png'
     });
   
     const affordableautospaMarker =  new google.maps.Marker({
       position: affordableautospaLatLong,
       map: map,
+      icon: './revivifyshield_marker.png'
     });
 
     const TouchUpTeamMarker = new google.maps.Marker({
         position: TouchUpTeamLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       });
     
       const BestShineAutoDetailingMarker = new google.maps.Marker({
         position: BestShineAutoDetailingLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       });
     
       const BNRAutoDetailingMarker = new google.maps.Marker({
         position: BNRAutoDetailingLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       })
     
       const BottiniAutoDetailingMarker = new google.maps.Marker({
         position: BottiniAutoDetailingLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       })
     
       const TheDetailingProsRenoMarker = new google.maps.Marker({
         position: TheDetailingProsRenoLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       })
     
       const BuckeyeCleanWerksMarker = new google.maps.Marker({
         position: BuckeyeCleanWerksLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       })
     
       const CeramicEliteLLCMarker= new google.maps.Marker({
         position: CeramicEliteLLCLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
       })
 
       const charlestonwindowfilmsMarker= new google.maps.Marker({
         position: charlestonwindowfilmsLatLong,
         map: map,
+        icon: './revivifyshield_marker.png'
         
       })
+
+      
 
     }
