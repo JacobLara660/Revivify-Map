@@ -37,9 +37,18 @@
         componentRestrictions: {'country': ['AU']},
       fields: ['place_id','geometry', 'name']
       });
+      
+      autocomplete.addListener('place_changed', onPlaceChanged);
   }
-  
-  
+  function onPlaceChanged(){
+    var place = autocomplete.getPlace();
+    if (!place.geometry){
+      document.getElementById('autocomplete').placeholder =
+      'enter a place';
+    } else {
+      document.getElemetById('details').innerHtml = place.name;
+    }
+  }
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArMLjT6Nw20g_PNBcq9HQpG2HPZFASKSc&libraries=places&callback=initAutocomplete" async defer>
 
 
