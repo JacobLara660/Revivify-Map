@@ -36,3 +36,6 @@ CeramicLabsLatLong
 
 charlestonwindowfilmsLatLong  
 { 32.783663767095724, -79.99371548661055 }
+
+//create a function to add a auto complete search widget for the ma
+

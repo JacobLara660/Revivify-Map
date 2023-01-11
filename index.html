@@ -34,9 +34,10 @@
       document.getElementById('autocomplete'),
       {
         types:['establishment'],
-        componentRestrictions: {'country': ['AU']},
+        componentRestrictions: {'country': ['US']},
       fields: ['place_id','geometry', 'name']
       });
+      
       
       autocomplete.addListener('place_changed', onPlaceChanged);
   }
@@ -46,7 +47,7 @@
       document.getElementById('autocomplete').placeholder =
       'enter a place';
     } else {
-      document.getElemetById('details').innerHtml = place.name;
+      document.getElementById('details').innerHtml = place.name;
     }
   }
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArMLjT6Nw20g_PNBcq9HQpG2HPZFASKSc&libraries=places&callback=initAutocomplete" async defer>
